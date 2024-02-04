@@ -105,13 +105,15 @@ fun SignIn() {
                 }
                 Spacer(modifier = Modifier.height(30.dp))
                 Row {
+
                     Icon(painter = painterResource(id = R.drawable.google),
                         contentDescription = "null",
                         modifier= Modifier
                             .size(40.dp)
-                            .background(color = Color.White, shape = RectangleShape)
-                            .border(width = 1.dp, color = Color.Blue),
-                        Color.Blue
+                            .clickable {  },
+                           // .background(color = Color.White, shape = RectangleShape)
+                           // .border(width = 1.dp, color = Color.Blue),
+                        //tint= Color.Blue
 
                     )
                     Spacer(modifier =Modifier.width(20.dp) )
@@ -120,18 +122,20 @@ fun SignIn() {
                        contentDescription = "null",
                        modifier= Modifier
                            .size(40.dp)
-                           .background(color = Color.White, shape = RectangleShape)
-                           .border(width = 1.dp, color = Color.Blue),
-                       Color.Blue
+                           .clickable {  },
+                          // .background(color = Color.White, shape = RectangleShape)
+                           //.border(width = 1.dp, color = Color.Blue),
+                               tint= Color.Blue
                    )
                     Spacer(modifier =Modifier.width(20.dp) )
                     Icon(painter = painterResource(id = R.drawable.linked),
                         contentDescription ="null",
                         modifier= Modifier
                             .size(40.dp)
-                            .background(color = Color.White, shape = RectangleShape)
-                            .border(width = 1.dp, color = Color.Blue),
-                        Color.Blue
+                            .clickable {  },
+                            //.background(color = Color.White, shape = RectangleShape)
+                            //.border(width = 1.dp, color = Color.Blue),
+                        tint= Color.Blue
                         )
 
                 }
