@@ -9,7 +9,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.example.dribbble1.Screens.SignUp
+import com.example.dribbble1.screens.SignUp
 import com.example.dribbble1.ui.theme.Dribbble1Theme
 
 class MainActivity : ComponentActivity() {

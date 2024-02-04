@@ -1,4 +1,4 @@
-package com.example.dribbble1.Screens
+package com.example.dribbble1.screens
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.clickable
